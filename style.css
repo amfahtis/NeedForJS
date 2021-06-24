@@ -46,13 +46,28 @@ table {
     display: none;
 }
 
+.start{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    margin: 0;
+    padding: 2rem 0;
+    text-align: center;
+    z-index: 300;
+    color: #fff;
+    font-size: 1.5rem;
+    /* background-color: #000; */
+    cursor: pointer;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
 .car, .enemy{
     width: 50px;
     height: 100px;
     background: transparent url('./image/player-car.png') center / cover no-repeat;
     position: absolute;
-    left: 125px;
-    bottom: 15px;
 }
 
 .gameArea{
@@ -70,4 +85,19 @@ table {
     height: 50px;
     background-color: #ffee00;
     left: 145px;
+}
+
+.score{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222;
+    padding: 1rem 0;
+    z-index: 200;
+    font-size: 1.5rem;
+    color: skyblue;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
 }
